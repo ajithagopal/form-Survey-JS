@@ -1,0 +1,47 @@
+
+mobile-input-container {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+.mobile-input-container img {
+  width: 24px;
+  height: 16px;
+  border: 1px solid #e5e7eb;
+}
+/* Ensure all form controls have the same border-radius */
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+input[type="number"],
+select,
+textarea {
+    border-radius: 30px !important;
+    padding-left: 1rem !important;
+    padding-right: 1rem !important;
+}
+
+.sd-row .sd-clearfix{
+  margin: 20px 0px;
+}
+
+.sd-action-bar{
+  display: flex;
+  justify-content:center;
+  max-width: 100%;
+}
+.sv-action__content{
+  width: 370px;
+}
+.sv-action__content input{
+  width: 100%;
+  background-color:#19b394 ;
+  color: white;
+}
+.sv-action__content input:hover{
+  color: white;
+  background-color: #19b394;
+}
+.sd-btn{
+    border-radius: 30px;
+}
